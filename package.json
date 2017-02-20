@@ -1,15 +1,28 @@
 {
   "name": "tough-cookie-filestore",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "file store for tough-cookie",
   "main": "index.js",
   "author": "mitsuru",
   "license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/mitsuru/tough-cookie-filestore.git"
-	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mitsuru/tough-cookie-filestore.git"
+  },
   "dependencies": {
     "tough-cookie": "^2.3"
+  },
+  "devDependencies": {
+    "verup": "^1.4"
+  },
+  "scripts": {
+    "verup": "verup"
+  },
+  "extra": {
+    "verup": {
+      "files": [
+        "lib/filestore.js"
+      ]
+    }
   }
 }
